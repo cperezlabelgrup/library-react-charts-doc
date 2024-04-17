@@ -13,21 +13,6 @@ interface TypeDetail {
   subDetails?: SubDetail[];
 }
 
-interface DataPoint {
-  x: number;
-  y: number;
-  label?: string;
-  tooltip_data?: any;
-}
-
-interface CustomToolTipData {
-  value: {
-    x: number;
-    y: number;
-  };
-  label: string;
-  xLabel: string;
-}
 
 const PropsTable: React.FC = () => {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
