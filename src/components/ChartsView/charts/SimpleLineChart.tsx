@@ -19,7 +19,8 @@ const lineSets = [
         { x: 12, y: 35 },
       ],
        strokeColor: "#FF6384",
-       backgroundColorLine: "rgba(206, 0, 58, 0.2)", 
+       backgroundColorLine: "rgba(206, 0, 58, 0.2)",
+       dashedParamater: 9,
     }
 ];
 
@@ -70,6 +71,7 @@ const SimpleLine = () => {
           ],
            strokeColor: "#FF6384",
            backgroundColorLine: "rgba(206, 0, 58, 0.2)",
+           dashedParamater: 9,
         }
     ];
     
